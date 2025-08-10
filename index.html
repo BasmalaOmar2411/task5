@@ -8,23 +8,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="./index.html">CreativeAgency</a>
-        <div>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/services.html">Services</a></li>
-                <li><a href="./pages/about.html">About</a></li>    
-                <li><a href="./pages/portfolio.html">Portfolio</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">CreativeAgency</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/services.html">Services</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div>
-        <h1>We Build Creative Websites</h1>
-        <p>Modern. Responsive. Beautiful.</p>
-        <a href="./pages/services.html">Our Services</a>
-    </div>
-    <footer>
+    <section class="home d-flex">
+        <div class="container">
+            <h1>We Build Creative Websites</h1>
+            <p>Modern. Responsive. Beautiful.</p>
+            <a href="./pages/services.html" class="btn btn-outline-light">Our Services</a>
+        </div>
+    </section>
+    <footer class="d-flex">
         <p> &copy; 2025 Creative Agency. All rights reserved.</p>
     </footer>
     <script src="./js/bootstrap.bundle.min.js" ></script>

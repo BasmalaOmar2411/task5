@@ -8,52 +8,58 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="../index.html">CreativeAgency</a>
-        <div>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./about.html">About</a></li>    
-                <li><a href="./portfolio.html">Portfolio</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">CreativeAgency</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./services.html">Services</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <section>
-        <h2>Our Latest Work</h2>
+        <h2 class="text-center mb-5">Our Latest Work</h2>
 
-        <div>
-            <div>
-                <img src="../images/3130377.jpg" alt="picture">
-            </div>
-            <div>
-                <h5>Business Landing Page</h5>
-                <p>Responsive and modern landing page for a finance startup.</p>
+        <div class="row">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="../images/3130377.jpg" alt="picture" class="card-img-top">
+                <div class="card-body">
+                    <h5>Business Landing Page</h5>
+                    <p>Responsive and modern landing page for a finance startup.</p>
+                </div>
             </div>
         </div>
 
-        <div>
-            <div>
-                <img src="../images/2205051.jpg" alt="picture">
-            </div>
-            <div>
-                <h5>E-Commerce UI</h5>
-                <p>Clean and fast online shop design using Bootstrap and Grid.</p>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <img src="../images/4905662.jpg" alt="picture">
-            </div>
-            <div>
-                <h5>Portfolio Website</h5>
-                <p>Personal portfolio with creative animations and layout.</p>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="../images/2205051.jpg" alt="picture" class="card-img-top ">
+                <div class="card-body">
+                    <h5>E-Commerce UI</h5>
+                    <p>Clean and fast online shop design using Bootstrap and Grid.</p>
+                </div>
             </div>
         </div>
 
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="../images/4905662.jpg" alt="picture" class="card-img-top">
+                <div class="card-body">
+                    <h5>Portfolio Website</h5>
+                    <p>Personal portfolio with creative animations and layout.</p>
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
-    <footer>
+    <footer class="d-flex">
         <p>&copy;  2025 Creative Agency. All rights reserved.</p>
     </footer>
     <script src="../js/bootstrap.bundle.min.js" ></script>
